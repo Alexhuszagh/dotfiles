@@ -5,13 +5,13 @@ theme:
   error_text: LightRed
   hint: Yellow
   hovered: Magenta
-  inactive: 211,232,255
+  inactive: 243,249,254
   playbar_background: Black
   playbar_progress: LightMagenta
   playbar_progress_text: Cyan
   playbar_text: 234,234,234
   selected: 178,88,219
-  text: 211,232,255
+  text: 243,249,254
   header: 234,234,234
 
 keybindings:
