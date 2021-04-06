@@ -13,3 +13,25 @@ theme:
   selected: 178,88,219
   text: 211,232,255
   header: 234,234,234
+
+keybindings:
+  shuffle: "s"
+  repeat: "r"
+  jump_to_album: "a"
+  jump_to_artist_album: "A"
+  manage_devices: "d"
+  decrease_volume: "-"
+  increase_volume: "+"
+  toggle_playback: " "
+  seek_backwards: "<"
+  seek_forwards: ">"
+  next_track: "n"
+  previous_track: "p"
+  copy_song_url: "c"
+  copy_album_url: "C"
+  help: "?"
+  search: "/"
+  audio_analysis: "v"
+  jump_to_context: "o"
+  basic_view: "B"
+  add_item_to_queue: "z"
