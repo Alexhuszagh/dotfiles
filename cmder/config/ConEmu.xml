@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2021-04-06 17:47:01" build="180206">
+		<key name=".Vanilla" modified="2021-04-07 16:55:06" build="180206">
 			<value name="ColorTable00" type="dword" data="002b2a29"/>
 			<value name="ColorTable01" type="dword" data="00ffc16f"/>
 			<value name="ColorTable02" type="dword" data="00b575ff"/>
@@ -482,8 +482,8 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2021-04-06 17:43:21" build="180206">
-				<value name="Count" type="long" data="16"/>
+			<key name="Tasks" modified="2021-04-07 16:55:06" build="180206">
+				<value name="Count" type="long" data="19"/>
 				<key name="Task1" modified="2021-04-06 17:43:21" build="180206">
 					<value name="Name" type="string" data="{cmd::Cmder as Admin}"/>
 					<value name="GuiArgs" type="string" data=""/>
@@ -635,6 +635,33 @@
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd /k "%ConEmuDir%\..\..\config\ipython39.cmd" -new_console:d:"%USERPROFILE%":C:"%ConEmuDir%\..\..\icons\py.ico" -cur_console:t:"IPython 3.9"'/>
+				</key>
+				<key name="Task17" modified="2021-04-07 16:55:06" build="180206">
+					<value name="Name" type="string" data="{MSYS2::MYS}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data=""/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='set MSYSTEM=MSYS &amp; cmd /c "C:\msys64\usr\bin\bash --login -i" -new_console:C:"C:\msys64\msys2.ico" -cur_console:t:"MSYS2"'/>
+				</key>
+				<key name="Task18" modified="2021-04-07 16:55:06" build="180206">
+					<value name="Name" type="string" data="{MSYS2::MinGW64}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data=""/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='set MSYSTEM=MINGW64 &amp; cmd /c "C:\msys64\usr\bin\bash --login -i" -new_console:C:"C:\msys64\mingw64.ico" -cur_console:t:"MinGW64"'/>
+				</key>
+				<key name="Task19" modified="2021-04-07 16:55:06" build="180206">
+					<value name="Name" type="string" data="{MSYS2::MinGW32}"/>
+					<value name="Flags" type="dword" data="00000004"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data=""/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='set MSYSTEM=MINGW32 &amp; cmd /c "C:\msys64\usr\bin\bash --login -i" -new_console:C:"C:\msys64\mingw32.ico" -cur_console:t:"MinGW32"'/>
 				</key>
 			</key>
 			<key name="Apps" modified="2021-04-06 17:43:21" build="180206">
