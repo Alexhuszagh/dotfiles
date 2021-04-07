@@ -1,4 +1,4 @@
 @echo off
 
-"%ConEmuDir%\..\init.bat" && ^
-"%ConEmuDir%\..\..\config\python39-aliases.cmd"
+call "%ConEmuDir%\..\init.bat" & ^
+call "%ConEmuDir%\..\..\config\python39-aliases.cmd"
