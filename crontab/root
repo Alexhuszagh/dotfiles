@@ -1,0 +1,2 @@
+# m h  dom mon dow   command
+ 30 12 * * 0 python3 /home/ahuszagh/bin/hosts_updater --url  https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling/hosts
